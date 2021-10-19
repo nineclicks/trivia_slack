@@ -1,0 +1,23 @@
+{
+  "trivia_core": {
+    "database_path": "trivia.db",
+    "admin_uid": "UE...",
+    "min_matching_characters": 5,
+    "scoreboard_schedule": [
+      {
+        "days_ago": 1,
+        "time": {
+          "hour": 7,
+          "minute": 0
+        }
+      }
+    ]
+  },
+  "slack_bot_token": "xoxb-...",
+  "trivia_channel": "C0...",
+  "max_tries": 4,
+  "bot": {
+    "username": "Trivia Bot",
+    "icon_emoji": ":panda_face:"
+  }
+}
