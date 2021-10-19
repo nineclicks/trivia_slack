@@ -1,3 +1,2 @@
-#Trivia Slack
-
-##Slack implementation of Trivia Core
+# Trivia Slack
+### Slack implementation of Trivia Core
