@@ -5,7 +5,9 @@
     "min_matching_characters": 5,
     "scoreboard_schedule": [
       {
-        "days_ago": 1,
+        "for": {
+          "days_ago": 1
+        },
         "time": {
           "hour": 7,
           "minute": 0
