@@ -1,1 +1,2 @@
 slack-sdk          >= 3.8.0
+git+https://github.com/nineclicks/trivia_core.git
