@@ -48,7 +48,7 @@ class SlackTrivia:
         line2 = f'({question["year"]}) *{question["category"]}* '
         line2 += f'for *{question["value"]}*'
         if question['comment']:
-            line2 += ' _question["comment"]_'
+            line2 += f' _{question["comment"]}_'
 
         line3 = f'>{question["question"]}'
 
