@@ -175,4 +175,21 @@ class SlackTrivia:
                     message_payload = event,
                     )
 
+        @self._trivia.on_error
+        def error(message_payload, text):
+            user = message_payload['user']
+            ts = message_payload['ts']
+            channel = message_payload['channel']
+            self._client.web_client.reactions_add(
+                channel=channel,
+                name='x',
+                timestamp=ts
+            )
+            self._client.web_client.chat_postEphemeral(
+                channel=channel,
+                user=user,
+                text=text,
+                **self._config['bot']
+                )
+
 slack = SlackTrivia()

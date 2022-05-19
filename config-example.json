@@ -3,6 +3,7 @@
     "database_path": "trivia.db",
     "admin_uid": "UE...",
     "min_matching_characters": 5,
+    "min_seconds_before_new": 120,
     "scoreboard_schedule": [
       {
         "for": {
